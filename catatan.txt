@@ -1,0 +1,6 @@
+Nama: muhammad fatih ar'ridlo
+NRP: 33132501001
+
+1. Working tree: Tempat membuat atau mengubah file.
+2. Staging area: Tempat menyiapkan perubahan sebelum commit.
+3. Repository: Tempat menyimpan riwayat commit.

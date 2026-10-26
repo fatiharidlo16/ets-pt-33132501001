@@ -1,0 +1,8 @@
+Pemeriksaan file log_debit.csv
+
+- Baris 4: nilai debit memiliki spasi di depan angka. Nilainya tetap dapat dibaca setelah spasi dihapus.
+- Baris 5: nilai debit `ERR` tidak dapat dikonversi menjadi angka.
+- Baris 6: nilai debit `-999` berada di luar rentang valid 5–25 L/menit.
+- Baris 8: nilai debit kosong.
+- Baris 9: nilai debit `250` berada di luar rentang valid 5–25 L/menit.
+- Baris 11: jumlah kolom tidak sesuai karena terdapat tiga kolom, padahal seharusnya dua. Nilai `13,5` juga tidak dapat langsung dikonversi menggunakan `float()` Python.
